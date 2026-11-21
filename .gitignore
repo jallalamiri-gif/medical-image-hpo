@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Données : conserver uniquement leur documentation
+data/*
+!data/README.md
+
+# Modèles et checkpoints
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
